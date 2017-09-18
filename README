@@ -1,0 +1,24 @@
+請使用這個json資料來跑 放進data資料夾(代替mongodb上的資料)
+https://drive.google.com/open?id=0B0qb25WFyj_tZVpXOXJ4T19Fa3c
+
+
+
+
+先跑newsummary產初bigtable1.3後
+才可跑redis及Doc2Vec
+
+tryRedisQuery需安裝Redis
+詳見下方網址交學
+http://www.runoob.com/redis/redis-install.html
+並啟用它
+
+
+newsummary需安裝python套件
+pip install pymongo
+pip install jieba
+pip install sklearn
+pip install gensim
+pip install redis
+pip install pprint
+
+
